@@ -37,3 +37,8 @@ gyarados = Pokemon(130, 'Gyarados', ['Water', 'Flying'], 'It has an extremely ag
 pikachu.speak()
 charizard.speak()
 gyarados.speak()
+"""      
+pikachu.display_details()
+charizard.dispaly_details()
+gyarados.display_details()
+"""
