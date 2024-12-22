@@ -15,9 +15,9 @@ def play():
   for i in range(1, 51):    
     results = random.choices(symbols, k=3)
     print(f'{results[0]} | {results[1]} | {results[2]}')
-    win = results[0] == '7️⃣' and results[1] == '7️⃣' and results[2] == '7️⃣'
+    #win = results[0] == '7️⃣' and results[1] == '7️⃣' and results[2] == '7️⃣'
 
-    if win:
+    if results[0] == '7️⃣' and results[1] == '7️⃣' and results[2] == '7️⃣':
       print('Jackpot!!! 💰')
       break
     else:
